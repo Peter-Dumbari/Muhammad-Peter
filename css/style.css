@@ -72,9 +72,10 @@ body {
     margin-bottom: 1rem;
 }
 
-textarea{
+textarea {
     resize: none;
 }
+
 @media only screen and (max-width:480px) {
 
     #main {

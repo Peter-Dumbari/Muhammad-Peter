@@ -7,122 +7,65 @@
   </head>
 
   <body>
-    <div id="heading">
-
-      <h1 id="title">Survey Form</h1>
-      <p id="description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eius
-        omnis inventore odit assumenda id praesentium nisi sint dolores quas
-        adipisci ipsa, quia atque ullam. Quidem non repellat dolor recusandae?
-      </p>
-    </div>
-    <div id="main">
-
-      <form id="survey-form">
-        <div id="input-fields">
-            <label id="name-label"><b>Name:</b></label><br />
-            <br />
-            <input
-              id="name"
-              type="name"
-              name="name"
-              class="form"
-              required
-              placeholder="Full Name"
-            /><br />
-            <br/>
-
-            <label id="email-label"><b>Email:</b></label><br />
-            <br />
-            <input
-              id="email"
-              type="email"
-              name="email"
-              class="form"
-              required
-              placeholder="Email"
-            /><br /> <br />
-
-            <label id="number-label"><b>Age(optional):</b></label><br /><br/>
-            <input
-              id="number"
-              type="number"
-              name="number"
-              class="form"
-              min="5"
-              max="99"
-              placeholder="Age"
-            />
-        </div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eius
+      omnis inventore odit assumenda id praesentium nisi sint dolores quas
+      adipisci ipsa, quia atque ullam. Quidem non repellat dolor recusandae?
+    </p>
+    <form id="survey-form">
+      <div id="input-fields">
+        <label id="name-label"><b>Name:</b></label>
+        <input
+          id="name"
+          type="name"
+          name="name"
+          class="form"
+          required
+          placeholder="Full Name"
+        /><br />
         <br />
-          <div id="dropdown-div">
-            <label id="number-label"><b>Selectbox</b></label><br /><br/>
-            <select id="dropdown" class="form">
-              <option value="">Hello</option>
-              <option value="">World</option>
-            </select>
-          </div>
-          <br />
-          <div id="button-area">
-            <br />
-            <label id="job-label"><b>Employment Status:</b></label><br />
-            <br />
-            <input
-              type="radio"
-              class="radio-inline"
-              name="gender"
-              value="employed"
-              checked
-            />
-            Full-time job holder.(Employed)<br />
-            <input
-              type="radio"
-              class="radio-inline"
-              name="gender"
-              value="freelancer"
-            />
-            Part-time job holder.(Freelancer)<br />
-            <input
-              type="radio"
-              class="radio-inline"
-              name="gender"
-              value="applier"
-            />
-            Looking for a job.(Applier)<br />
-            <input
-              type="radio"
-              class="radio-inline"
-              name="gender"
-              value="unemployed"
-            />
-            I am a student
-          </div>
-          <br/>
-          <div id="button-area">
-            <label id="checkbox-label">Checkbox</label>
-            <input
-              type="checkbox"
-              name="checkbox"
-              id="checkbox"
-              value="checkbox-1"
-            />checkbox 1
-            <input
-              type="checkbox"
-              name="checkbox"
-              id="checkbox"
-              value="checkbox-2"
-            />checkbox 2
-          </div>
-          <br/>
-          <div>
-            <textarea name="" id="" cols="30" rows="10" class="form"></textarea>
-          </div>
-          <br/>
-          <div>
-            <button id="submit" type="submit">Submit</button>
-          </div>
-        </div>
-      </form>
-    </div>
+        <label id="email-label"><b>Email:</b></label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          class="form"
+          required
+          placeholder="Email"
+        /><br />
+        <br />
+        <label id="number-label"><b>Age(optional):</b></label>
+        <input
+          id="number"
+          type="number"
+          name="number"
+          class="form"
+          min="5"
+          max="99"
+          placeholder="Age"
+        />
+        <br />
+        <br />
+        <select id="dropdown">
+          <option value="">Hello</option>
+          <option value="">World</option>
+        </select>
+        <br />
+        <label id="checkbox-label">Checkbox</label>
+        <input
+          type="checkbox"
+          name="checkbox"
+          id="checkbox"
+          value="checkbox-1"
+        />checkbox 1
+        <input
+          type="checkbox"
+          name="checkbox"
+          id="checkbox"
+          value="checkbox-2"
+        />checkbox 2
+      </div>
+    </form>
   </body>
 </html>
